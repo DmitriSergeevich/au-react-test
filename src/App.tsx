@@ -1,4 +1,5 @@
 import React from 'react'
+import TreeGreed from './components/Tree-greed/Tree-greed'
 import { startMirage } from './server-mock'
 
 if (process.env.NODE_ENV === 'development') {
@@ -6,7 +7,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 function App() {
-  return <div className="App" />
+  return <TreeGreed/>
 }
 
 export default App
